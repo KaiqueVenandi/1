@@ -1,0 +1,65 @@
+body {
+  background-image: url(./Fundo.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  
+
+}
+
+
+
+main {
+  border: 2px solid black;
+  border-radius: 15px;
+  box-shadow: 8px 4px 10px black;
+  padding: 50px;
+  margin-top: 200px;
+  background-color: transparent;
+
+}
+  
+
+.lista {
+ display: flex;
+flex-direction: column;
+gap: 20px;
+padding-left: 10px;
+
+}
+
+ul li a {
+  display: flex;
+   border: 1px solid black;
+   border-radius: 15px;
+   justify-content: center;
+  padding: 10px;
+  background-color: rgba(226, 217, 217, 0.356);
+     
+
+}  
+
+#midia-social {
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  gap: 25px;
+  padding: 20px;
+  
+}
+
+#midia-social a:hover {
+  background-color: rgba(65, 63, 63, 0.548);
+  border-radius: 30px;
+  padding: 10px;
+  transition: 500ms;
+  
+  
+}
+
+
+
+    
+        
+       
+
